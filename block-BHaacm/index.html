@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/stylesheet/style.css" />
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/f1a9dfe756.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Responsive Design - Assignment 1</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container brand flex">
+        <a href="index.html"
+          ><img
+            class="width-full brand-logo"
+            src="assets/media/logo.png"
+            alt="Brand Logo"
+        /></a>
+        <nav class="nav-menu">
+          <ul class="center">
+            <li class="nav-menu-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="active" href="#blog">Blog</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="introduction" id="about">
+        <div class="container padding">
+          <article class="flex">
+            <div>
+              <img
+                class="hide-desktop width-full"
+                src="assets/media/01.png"
+                alt="Pencils on Yellow Background"
+              />
+            </div>
+            <div class="flex-48">
+              <h1 class="heading">What is Lorem Ipsum?</h1>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur debitis maiores molestias, voluptates autem cumque
+                ex tempora quis odit porro pariatur necessitatibus, natus nam
+                libero deserunt voluptatum illum! Est, alias. Lorem ipsum dolor
+                sit, amet consectetur adipisicing elit.
+              </p>
+              <a class="btn" href="#">Read More</a>
+            </div>
+            <div class="flex-48">
+              <img
+                class="hide-mobile width-full"
+                src="assets/media/01.png"
+                alt="Pencils on Yellow Background"
+              />
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="blog" id="blog">
+        <div class="container">
+          <h1 class="heading">Our Blog</h1>
+          <div class="flex">
+            <article class="flex-31">
+              <img
+                class="width-full"
+                src="assets/media/02.png"
+                alt="Pink cup on top of books"
+              />
+              <h2 class="heading">Why do we use it?</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                accusamus adipisci enim placeat qui, ducimus in.<br />
+              </p>
+              <a class="btn" href="#">Read More</a>
+            </article>
+            <article class="flex-31">
+              <img
+                class="width-full"
+                src="assets/media/03.png"
+                alt="Typewriter"
+              />
+              <h2 class="heading">Where does it come from?</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                accusamus adipisci enim placeat qui, ducimus in.<br />
+              </p>
+              <a class="btn" href="#">Read More</a>
+            </article>
+            <article class="flex-31">
+              <img
+                class="width-full"
+                src="assets/media/04.png"
+                alt="Laptop on a desk"
+              />
+              <h2 class="heading">Where can I get some?</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+                accusamus adipisci enim placeat qui, ducimus in.<br />
+              </p>
+              <a class="btn" href="#">Read More</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container flex">
+        <small>&copy; AltCampus</small>
+        <div class="center">
+          <div class="icon-box center">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <div class="icon-box center">
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
