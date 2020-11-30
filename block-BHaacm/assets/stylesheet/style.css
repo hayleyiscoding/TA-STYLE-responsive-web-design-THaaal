@@ -1,0 +1,356 @@
+/* Variables */
+
+:root {
+  --primary: #222946;
+  --secondary: #37b667;
+  --bg: #e9edfc;
+  --text: #95969c;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom Styles */
+
+*,
+* ::before,
+* ::after {
+  box-sizing: border-box;
+}
+input,
+button {
+  box-shadow: none;
+  outline: 0;
+  border: 0;
+}
+
+/* General */
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 86.25rem;
+  margin: 0 auto;
+  padding: 0 2.75rem;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.nav-menu a:hover {
+    color: var(--secondary);
+}
+.hide-mobile {
+    display: none;
+}
+
+/* Center */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Padding */
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+  background-color: var(--secondary);
+  color: white;
+  cursor: pointer;
+  transform: all 200ms ease-in-out;
+}
+.btn:hover {
+  background-color: var(--primary);
+}
+
+/* Header and Fonts */
+.heading {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.text {
+  color: var(--text);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Clearfix */
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+
+/* Full-width */
+.width-full {
+  width: 100%;
+}
+
+/* Header */
+.header {
+  background-color: var(--primary);
+  padding: 4rem;
+  text-align: center;
+}
+.brand-logo {
+  margin-bottom: 2.75rem;
+  max-width: 15.625rem;
+}
+.nav-menu a {
+  font-size: 2.77rem;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 1rem;
+}
+.nav-menu .active {
+  color: var(--secondary);
+}
+/* Introduction */
+.introduction {
+  background-color: var(--bg);
+  padding: 2.75rem 0;
+}
+.introduction img {
+  margin-bottom: 2rem;
+}
+/* Blog */
+.blog img {
+  object-fit: cover;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.blog h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2.75rem;
+}
+
+/* Footer  */
+.footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 2rem;
+}
+.footer small {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: #7a80a4;
+  font-weight: 600;
+}
+.icon-box {
+  background-color: #7a80a4;
+  border-radius: 0.3rem;
+  height: 2rem;
+  width: 2rem;
+  margin: 1.5rem 1rem;
+  text-align: center;
+}
+.icon-box i {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+}
+
+
+/* On Desktop */
+
+@media screen and (min-width: 768px) {
+  /* General */
+  html {
+    font-size: 12px;
+  }
+  .hide-desktop {
+    display: none;
+  }
+  .hide-mobile {
+    display: block;
+  }
+  /* Flex */
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flex-48 {
+    flex: 0 1 48%;
+  }
+  .flex-31 {
+    flex: 0 1 31%;
+  }
+  /* Padding */
+  .padding {
+    padding: 2rem 1.5rem;
+  }
+  /* Buttons */
+  .btn {
+    font-size: 1.2rem;
+  }
+  /* Header */
+  .header {
+    padding: 1.5rem;
+  }
+  .brand-logo {
+    margin-bottom: 0;
+  }
+  .nav-menu a {
+    font-size: 1.2rem;
+  }
+  /* Introduction */
+  .introduction .text {
+    padding-right: 2.75rem;
+  }
+  /* Blog */
+  .blog h2 {
+    font-size: 1.9rem;
+  }
+  /* Footer */
+  .footer small {
+    padding-bottom: 0;
+  }
+}
