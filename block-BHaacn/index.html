@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/stylesheet/style.css" />
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/f1a9dfe756.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Responsive - Assignment 2</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex justify-between align-center">
+        <a class="heading brand" href="index.html">Alt Events</a>
+        <label class="bars" for="toggle"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" name="checkbox" id="toggle" />
+        <nav class="nav">
+          <ul
+            class="nav-menu flex justify-between align-center uppercase column"
+          >
+            <li class="nav-menu-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#about">About</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#">Services</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#">Contact</a>
+            </li>
+            <li class="nav-menu-item">
+              <a class="btn" href="#">Join Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero font-0 padding flex center">
+        <div class="container flex justify-between align-center wrap column">
+          <div class="flex-48 flex-100">
+            <h1 class="heading">
+              Web Developer<br />Conference <span class="accent">2020</span>
+            </h1>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed
+              vel repellendus, odio porro mollitia illum sit est tempore
+              perspiciatis, commodi odit? Porro repudiandae molestias voluptate
+              nihil, aspernatur soluta. Saepe.
+            </h3>
+            <div class="mobile-center">
+              <a class="btn" href="#">Register Now</a>
+            </div>
+          </div>
+          <div class="flex-48 flex-100 text-right display-none">
+            <img
+              class="width-full"
+              src="assets/media/hero.png"
+              alt="Woman singing in casual clothes"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about padding">
+        <article class="container flex justify-evenly align-center wrap">
+          <div class="flex-40 flex-100 mobile-center">
+            <img
+              class="width-full"
+              src="assets/media/about.png"
+              alt="Speakers in a circle talking at an event"
+            />
+          </div>
+          <div class="flex-40 flex-100 mobile-center">
+            <h2 class="heading heading-secondary">About the event</h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed
+              vel repellendus, odio porro mollitia illum sit est tempore
+              perspiciatis, odit? Porro repudiandae molestias voluptate nihil,
+              aspernatur.
+            </p>
+            <a class="btn mobile-center" href="#">Know More</a>
+          </div>
+        </article>
+      </section>
+      <section id="join" class="join padding">
+        <div class="container">
+          <h2 class="heading heading-secondary heading-tertiary text-center">
+            Why You Should Join
+          </h2>
+          <div class="flex justify-between align-center wrap">
+            <div class="col flex-30 flex-100">
+              <div class="number">
+                <h3 class="heading text-center">1</h3>
+              </div>
+              <h4 class="heading heading-secondary heading-tertiary">
+                Network
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
+                maiores perferendis, iste, unde fugit quidem molestias dicta
+                velit consequuntur mollitia eaque delectus.
+              </p>
+            </div>
+            <div class="col flex-30 flex-100">
+              <div class="number">
+                <h3 class="heading text-center">2</h3>
+              </div>
+              <h4 class="heading heading-secondary heading-tertiary">
+                Great Speakers
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
+                maiores perferendis, iste, unde fugit quidem molestias dicta
+                velit consequuntur mollitia eaque delectus.
+              </p>
+            </div>
+            <div class="col flex-30 flex-100">
+              <div class="number">
+                <h3 class="heading text-center">3</h3>
+              </div>
+              <h4 class="heading heading-secondary heading-tertiary">
+                Information
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
+                maiores perferendis, iste, unde fugit quidem molestias dicta
+                velit consequuntur mollitia eaque delectus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="schedule padding">
+        <div class="container">
+          <h2 class="heading heading-secondary heading-tertiary text-center">
+            Schedule
+          </h2>
+          <div class="container-small border-left border-none">
+            <div class="circle display-none">
+              <h5
+                class="heading heading-secondary heading-tertiary text-center"
+              >
+                06
+              </h5>
+              <h5
+                class="heading heading-secondary heading-tertiary text-center"
+              >
+                Sept
+              </h5>
+            </div>
+            <div class="circle-border display-block-desktop display-none">
+              <h5
+                class="heading heading-secondary heading-tertiary text-center"
+              >
+                07
+              </h5>
+              <h5
+                class="heading heading-secondary heading-tertiary text-center"
+              >
+                Sept
+              </h5>
+            </div>
+            <div class="circle-border circle-border1 display-block-desktop display-none">
+              <h5
+                class="heading heading-secondary heading-tertiary text-center"
+              >
+                08
+              </h5>
+              <h5
+                class="heading heading-secondary heading-tertiary text-center"
+              >
+                Sept
+              </h5>
+            </div>
+            <div class="circle-border circle-border2 display-block-desktop display-none">
+              <h5
+                class="heading heading-secondary heading-tertiary text-center"
+              >
+                09
+              </h5>
+              <h5
+                class="heading heading-secondary heading-tertiary text-center"
+              >
+                Sept
+              </h5>
+            </div>
+            <div class="events-list">
+              <article
+                class="event-item flex align-center justify-end wrap center"
+              >
+                <div class="flex-20 flex-100 text-left mobile-center">
+                  <img
+                    class="full-width margin-left-14"
+                    src="assets/media/schedule-01 3.jpg"
+                    alt="A group of people at an event"
+                  />
+                </div>
+                <div class="circle-mobile hide display-block">
+                  <h5
+                    class="heading heading-secondary heading-tertiary text-center"
+                  >
+                    06
+                  </h5>
+                  <h5
+                    class="heading heading-secondary heading-tertiary text-center"
+                  >
+                    Sept
+                  </h5>
+                </div>
+                <div class="event-info flex-65 flex-100 mobile-center">
+                  <h5 class="heading heading-secondary heading-tertiary">
+                    Digital World Event Conversation
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis sint ipsam cupiditate, eos, non provident consequuntur
+                    illum ex.
+                  </p>
+                </div>
+              </article>
+              <article
+                class="event-item flex justify-end align-center wrap center"
+              >
+                <div class="flex-20 flex-100 mobile-center">
+                  <img
+                    class="full-width margin-left-14"
+                    src="assets/media/schedule-02.jpg"
+                    alt="Watercolor notes"
+                  />
+                </div>
+                <div class="circle-border-mobile hide display-block">
+                  <h5
+                    class="heading heading-secondary heading-tertiary text-center"
+                  >
+                    07
+                  </h5>
+                  <h5
+                    class="heading heading-secondary heading-tertiary text-center"
+                  >
+                    Sept
+                  </h5>
+                </div>
+                <div class="flex-65 flex-100 mobile-center event-info">
+                  <h5 class="heading heading-secondary heading-tertiary">
+                    Web Designing Conversation
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis sint ipsam cupiditate, eos, non provident consequuntur
+                    illum ex.
+                  </p>
+                </div>
+              </article>
+              <article
+                class="event-item flex justify-end align-center wrap center"
+              >
+                <div class="flex-20 text-left flex-100 mobile-center">
+                  <img
+                    class="full-width margin-left-14"
+                    src="assets/media/schedule-03 3.jpg"
+                    alt="Man sitting at a desk with 3 screens"
+                  />
+                </div>
+                <div class="circle-border-mobile hide display-block">
+                  <h5
+                    class="heading heading-secondary heading-tertiary text-center"
+                  >
+                    08
+                  </h5>
+                  <h5
+                    class="heading heading-secondary heading-tertiary text-center"
+                  >
+                    Sept
+                  </h5>
+                </div>
+                <div class="event-info flex-65 flex-100 mobile-center">
+                  <h5 class="heading heading-secondary heading-tertiary">
+                    Web Development Conversation
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis sint ipsam cupiditate, eos, non provident consequuntur
+                    illum ex.
+                  </p>
+                </div>
+              </article>
+              <article
+                class="event-item padding-bottom-none flex  align-center center justify-end wrap"
+              >
+                <div class="flex-20 text-left flex-100 mobile-center">
+                  <img
+                    class="full-width margin-left-14"
+                    src="assets/media/schedule-04 3.jpg"
+                    alt="Sign on the floor - Passion led us here"
+                  />
+                </div>
+                <div class="circle-border-mobile hide display-block">
+                  <h5
+                    class="heading heading-secondary heading-tertiary text-center"
+                  >
+                    09
+                  </h5>
+                  <h5
+                    class="heading heading-secondary heading-tertiary text-center"
+                  >
+                    Sept
+                  </h5>
+                </div>
+                <div class="event-info flex-65 flex-100 mobile-center">
+                  <h5 class="heading heading-secondary heading-tertiary">
+                    Digital Marketing Conference
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis sint ipsam cupiditate, eos, non provident consequuntur
+                    illum ex.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="text-center mobile-center">
+            <a class="btn" href="#">Download Schedule</a>
+          </div>
+        </div>
+      </section>
+      <section class="stats padding">
+        <div class="container flex justify-between justify-evenly-mobile align-center wrap">
+          <div class="text-center flex-25 flex-100 stat">
+            <img
+              class="full-width"
+              src="assets/media/speaker.png"
+              alt="Microphone icon"
+            />
+            <h5 class="heading heading-secondary heading-tertiary">20+</h5>
+            <h6 class="heading heading-secondary heading-tertiary">
+              Great Speakers
+            </h6>
+          </div>
+          <div class="text-center flex-25 flex-100 idea stat">
+            <img
+              class="full-width"
+              src="assets/media/idea.png"
+              alt="globe icon"
+            />
+            <h5 class="heading heading-secondary heading-tertiary">50+</h5>
+            <h6 class="heading heading-secondary heading-tertiary">
+              Total Topics
+            </h6>
+          </div>
+          <div class="text-center flex-25 flex-100 stat">
+            <img
+              class="full-width"
+              src="assets/media/participants.png"
+              alt="Participants icon"
+            />
+            <h5 class="heading heading-secondary heading-tertiary">300+</h5>
+            <h6 class="heading heading-secondary heading-tertiary">
+              Participants
+            </h6>
+          </div>
+          <div class="text-center flex-25 flex-100 stat">
+            <img
+              class="full-width"
+              src="assets/media/sponsor.png"
+              alt="Sponsors icon"
+            />
+            <h5 class="heading heading-secondary heading-tertiary">20+</h5>
+            <h6 class="heading heading-secondary heading-tertiary">Sponsors</h6>
+          </div>
+        </div>
+      </section>
+      <section class="video padding">
+        <div class="container">
+          <div class="video-holder">
+            <div class="white-circle text-center grow">
+                <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="news padding">
+        <div class="container">
+          <h2 class="heading heading-secondary heading-tertiary text-center">
+            Our Latest News
+          </h2>
+          <div class="flex justify-between align-center latest-news wrap">
+            <article class="flex-30 flex-100 mobile-center">
+              <img
+                class="width-full"
+                src="assets/media/news-01.png"
+                alt="Two pencils with yellow background"
+              />
+              <h4 class="heading heading-secondary heading-tertiary">
+                How to build a great portfolio as a beginner developer
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus tempore explicabo suscipit harum!
+              </p>
+              <a href="#">Read More</a>
+            </article>
+            <article class="flex-30 flex-100 mobile-center">
+              <img
+                class="width-full"
+                src="assets/media/news-02.png"
+                alt="Pink teacup on a table"
+              />
+              <h4 class="heading heading-secondary heading-tertiary">
+                4 common situations in git and how to solve them
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus tempore explicabo suscipit harum!
+              </p>
+              <a class="active" href="#">Read More</a>
+            </article>
+            <article class="flex-30 flex-100 mobile-center">
+              <img
+                class="width-full"
+                src="assets/media/news-03.png"
+                alt="Three people in a boardroom"
+              />
+              <h4 class="heading heading-secondary heading-tertiary">
+                Basic Unix commands that you should know
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus tempore explicabo suscipit harum!
+              </p>
+              <a href="#">Read More</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-1 padding">
+        <div
+          class="container flex justify-between align-center wrap mobile-center"
+        >
+          <a class="flex-30 flex-100" href="index.html"
+            ><img src="assets/media/footer-logo.png" alt="Logo"
+          /></a>
+          <div class="flex-30 flex-100">
+            <h4 class="heading heading-secondary heading-secondary">
+              Quick Links
+            </h4>
+            <nav>
+              <ul class="flex justify-between column column-2">
+                <li>
+                  <a href="#">Program</a>
+                </li>
+                <li>
+                  <a href="#about">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#">Services</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex-30 flex-100">
+            <h4 class="heading heading-secondary heading-tertiary">
+              Follow Us
+            </h4>
+            <div class="flex align-center justify-center">
+              <a href="#" target="_blank"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a href="#" target="_blank"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer-2 text-center">
+        <small>&copy AltCampus Services Pvt Ltd, 2018-present</small>
+      </section>
+    </footer>
+  </body>
+</html>
